@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin:0;
+}
+
+ul{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    border: 3px solid orange;
+    padding: 0;
+    width:100%;
+    align-items: center;
+}
+
+li{
+    margin: 1rem;
+    border: 2px solid purple;
+}
+
+.logo{
+    float: left;
+    top:
+}
+
+.logo img{
+    width: 3vw;
+}
