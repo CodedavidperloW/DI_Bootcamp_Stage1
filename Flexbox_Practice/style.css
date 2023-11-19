@@ -26,7 +26,8 @@ li{
 .logo{
     float: left;
     position:absolute;
-    top:0;
+    top:1vh;
+    left:1rem
 }
 
 .logo img{
@@ -53,11 +54,10 @@ li{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items:flex-end;
     margin: 10rem;
     border: 3px solid orange;
     background-color: plum;
-    
 }
 
 .images img{
@@ -67,9 +67,10 @@ li{
 
 .align-content{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 90vh;
-    align-content:flex-end;
+    align-content:center;
 }
 
 .align-content, .flex-item{
@@ -80,14 +81,185 @@ li{
     width:14rem;
     background-color: lightblue;
     margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+.main1, .main2, .main3{
+    background-color: teal;
+    opacity: .8
+}
 .main1{
     display:flex;
     flex-direction: row;
     border: 3px solid orange;
     font-size: 4rem;
+    margin-bottom: 10vh;
+    justify-content: center;
 }
+
+.exercise-one{
+    border: 4px solid crimson;
+    padding: 2px
+}
+.div-mainone{
+    width: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid orange;
+    margin: 5vw 30vw;
+    font-size: 4rem;
+}
+
+.div-maintwo, .div-mainthree{
+    margin: 1rem;
+}
+
+.main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid orange;
+    font-size: 4rem;
+}
+
+
+.exercise-two{
+    display: flex;
+    flex-direction:column;
+    border: 4px solid crimson;
+    margin-top: 5vh;
+}
+
+.first-box, .second-box, .third-box{
+    font-size: 15vh;
+    border: 2px solid orange;
+    margin: 3px;
+    background-color: thistle;
+    text-align: center;
+}
+
+.second-box{
+    width: 25vw;
+    align-self: flex-end;
+}
+.first-box{
+    width: 25vw;
+    align-self: center;
+}
+.third-box{
+    width:25vw; 
+}
+
+
+
+
+/* .exercise-three{
+    border: 4px solid salmon;
+    margin-top: 10vh;
+    display:flex;
+    flex-direction: row;
+    padding: 1vw;
+}
+
+.team, .Products, .Logo{
+    border:1px solid grey;
+    margin: 1vw 0vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team{
+    width: 15%;
+}
+.Products{
+    width:35%;
+}
+.Logo{
+    width: 10%
+} */
+
+.exercise-three{
+    border: 4px solid gray;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.team, .Products, .Logo{
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1vw 0vw
+}
+
+.team{
+width: 45vw;
+margin-right: 1vw;
+background-color: lightblue;
+
+}
+
+.Products{
+    width: 35vw;
+    background-color: salmon;
+}
+
+.Logo{
+    width: 15vw;
+    background-color: purple;
+}
+
+.exercise-four{
+    border: 4px solid blue;
+    margin-top: 12vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.boxA, .boxC{
+    border: 2px solid brown;
+    margin: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1vh 15vw;
+    font-size: 10vh;
+}
+
+.boxB{
+    border: 2px solid brown;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:  0 8vw;
+    font-size: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
