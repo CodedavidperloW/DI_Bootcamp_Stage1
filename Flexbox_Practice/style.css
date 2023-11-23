@@ -247,7 +247,23 @@ background-color: lightblue;
     font-size: 10vh;
 }
 
+.fun-images{
+    border: 3px solid black;
+    padding: 1rem;
+    margin-top: 10vh;
+    margin-left:1vw;
+    margin-right:1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*main axis is the flex direction*/
+/*main start -main end this is the parameter of the container*/
 
+.pix img{
+    width: 5rem;
+    height: 5rem;
+}
 
 
 
