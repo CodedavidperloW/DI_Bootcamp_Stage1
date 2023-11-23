@@ -254,18 +254,22 @@ background-color: lightblue;
     margin-left:1vw;
     margin-right:1vw;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 /*main axis is the flex direction*/
 /*main start -main end this is the parameter of the container*/
 
 .pix img{
-    width: 5rem;
-    height: 5rem;
+    width: 15rem;
+    height: 15rem;    
+    }
+
+.pix p{
+    text-align: center;
 }
-
-
 
 
 
