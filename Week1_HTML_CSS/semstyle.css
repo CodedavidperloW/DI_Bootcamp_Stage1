@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.a,.b,.c,.d,.e,.f, .logo{
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid rgb(2, 3, 2);
+    margin-right: 1vw;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+}
+.a img{
+    height:3rem;
+    width: 3rem;
+}
+
+
+.b{
+    display:flex;
+    align-items: center;
+}
+
+.b img{
+    margin-top:1vh;
+    height: 3vh;
+    width: 4.5vw;
+    display: block;
+    margin: auto;
+}
+
+.c{
+    display:flex;
+    align-items: center;
+}
+
+.c img{
+    height: 3vh;
+    width: 5vw;
+    display:block;
+    margin:auto;
+}
+.logo{
+    margin-left: auto;
+    display:flex;
+    align-items:center;
+    border:none
+}
+
+.logo img{
+    height: 4vh;
+    width: 4vw;
+    display: block;
+    margin: auto;
+}
