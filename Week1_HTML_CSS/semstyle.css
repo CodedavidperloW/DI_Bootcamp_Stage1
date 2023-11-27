@@ -19,6 +19,7 @@
 .a img{
     height:3rem;
     width: 3rem;
+    border-top: 2px solid black;
 }
 
 
@@ -30,7 +31,7 @@
 .b img{
     margin-top:1vh;
     height: 3vh;
-    width: 4.5vw;
+    width: 2.5vw;
     display: block;
     margin: auto;
 }
@@ -46,6 +47,42 @@
     display:block;
     margin:auto;
 }
+
+.d{
+    display:flex;
+    align-items:center;
+}
+
+.d img{
+    height:3vh;
+    width: 1.8vw;
+    display:block;
+    margin: auto;
+}
+
+.e{
+    display: flex;
+    align-items: center;
+}
+
+.e img{
+    height: 3vh;
+    width: 1.8vw;
+    display: block;
+    margin: auto;
+}
+
+.f{
+    display:flex;
+    align-items: center;
+}
+
+.f img{
+    height: 4.8vh;
+    display: block;
+    margin: auto;
+}
+
 .logo{
     margin-left: auto;
     display:flex;
